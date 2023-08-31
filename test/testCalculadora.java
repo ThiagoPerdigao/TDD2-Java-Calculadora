@@ -24,4 +24,10 @@ Calculadora calc = new Calculadora();
 assertEquals (10, calc.multiplicacao(2,5));
 }
 
+@Test 
+public void testDivisao(){
+Calculadora calc = new Calculadora();
+assertEquals (2, calc.divisao(10,5));
+}
+
 }
