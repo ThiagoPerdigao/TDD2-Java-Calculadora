@@ -18,5 +18,10 @@ Calculadora calc = new Calculadora();
 assertEquals (5, calc.subtracao(10,5));
 }
 
+@Test 
+public void testMultiplicacao(){
+Calculadora calc = new Calculadora();
+assertEquals (10, calc.multiplicacao(2,5));
+}
 
 }
